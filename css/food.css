@@ -1,0 +1,152 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+#header{
+	height: 600px;
+	width: auto;
+	background: url(../img/2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+nav{
+	background: black;
+	opacity: 0.7;
+}
+
+#ReviewBg{
+	min-height: 620px;
+	width: auto;
+	background: url(../img/7.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.OverPlay{
+	background: black;
+	opacity: 0.8;
+	position: absolute;
+	min-height: 620px;
+	width: 100%;
+}
+
+.big{
+	font-size: 35px;
+	color: red;
+
+}
+
+
+
+.navbar-nav li {
+	padding-right: 15px;
+}
+
+.aboutimg img{
+	height: 450px;
+	width: 100%;
+
+}
+
+#MenuItem img{
+	height: 234px ;
+	width: 350px;
+
+}
+
+#Gallery img{
+	height: 234px;
+	width: 350px;
+
+}
+
+#contactUs img{
+	height: 300px;
+	width: 100%;
+}
+
+#MenuItem img{
+	box-shadow: 8px 2px 8px black;
+	cursor: pointer;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+	#ReviewBg{
+	height: 1680px;
+	width: auto;
+	background: url(../img/7.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+.OverPlay{
+	background: black;
+	opacity: 0.8;
+	position: absolute;
+	height: 1680px;
+	width: 100%;
+}
+
+.banner-caption h2{
+	font-size: 2rem;
+}
+.banner-caption p{
+	font-size: 15px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	#ReviewBg{
+	height: 1680px;
+	width: auto;
+	background: url(../img/7.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+.OverPlay{
+	background: black;
+	opacity: 0.8;
+	position: absolute;
+	height: 1680px;
+	width: 100%;
+}
+
+.banner-caption h2{
+	font-size: 3rem;
+}
+.banner-caption p{
+	font-size: 18px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#ReviewBg{
+	height: 800px;
+	width: auto;
+	background: url(../img/7.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+.OverPlay{
+	background: black;
+	opacity: 0.8;
+	position: absolute;
+	height: 800px;
+	width: 100%;
+}
+}
